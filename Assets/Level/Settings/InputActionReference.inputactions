@@ -1,0 +1,74 @@
+{
+    "name": "InputActionReference",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "58b5add3-12b1-402f-880c-a9993498cb86",
+            "actions": [
+                {
+                    "name": "RunToRight",
+                    "type": "Button",
+                    "id": "c058a088-6bf7-400c-9568-f3f22e0fe22f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RunToLeft",
+                    "type": "Button",
+                    "id": "7d1032fa-aeb2-4b4b-9a06-588f277b40f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "3377998f-af3d-4133-884e-00f61aae850a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07a23946-adca-4a48-8a2e-74c725270e22",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RunToRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68d8f511-bae2-4a22-a0fb-c33866d2e4d1",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RunToLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "444cc456-f142-4df0-a2ef-2a354ee38531",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
